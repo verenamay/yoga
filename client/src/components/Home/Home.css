@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Khula&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital@1&display=swap');
+
+@media (min-width: 768px) {
+    .landing-all {
+        max-width: 100%;
+        margin: 0 5em 0 5em;
+        /* background-color: blue; */
+    }
+    .home {
+        max-width: 100%; 
+        height: 80vh;
+        /* margin: 0 5em 0 5em; */
+        background: url("Photo1.PNG") no-repeat center center fixed; 
+        background-size: cover; 
+        /* display: flex; */
+        /* justify-content: space-between; */
+    }
+    shadow {
+    display:block;
+    position:relative;
+    }
+    
+    .Heading {
+        padding: 100px;
+        font-family: 'Nanum Myeongjo', serif;
+        font-size: 40px;
+        /* background-color: blue;    */
+    }
+
+    .About {
+        padding: 80px;
+        
+        text-align: center;
+        font-family: 'Julius Sans One', sans-serif;
+
+    }
+
+    .About h2{
+        vertical-align: middle;
+        text-transform: uppercase;
+        line-height: 1em;
+        text-align: center;
+        display: inline-block;
+        letter-spacing: -1px;
+    }
+    .About h2::after{
+        content: "";
+        display: block;
+        width: 70%;
+        height: 1px;
+        margin: auto;
+        margin-top: 10px;
+        background-color: black;
+    }
+    .About h3{
+        text-transform: uppercase;
+    }
+
+    #yogateacher {
+        display: flex; 
+        justify-content: space-evenly;
+        font-family: 'Khula', sans-serif;
+        padding-top: 10px;
+    }
+    #yogateacher .container {
+        width: 400px;
+        /* background-color: blue; */
+    }
+    .container p{
+        
+    }
+
+    
+}
+

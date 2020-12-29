@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Khula&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital@1&display=swap');
+
+@media (min-width: 768px) {
+    nav {
+        max-width: 100%; 
+        height: 10px;
+        margin-top: 5em;
+        /* background-color: red; */
+        display: flex; 
+        align-items: center;
+        justify-content: space-between;
+    }
+    .Logo {
+        /* float: left; */
+        margin-left: 5em;
+        font-family: 'Julius Sans One', sans-serif;
+        letter-spacing: 2px;
+        /* background-color: red; */
+        text-align: center;
+    }
+    .Links {
+        margin-right: 5em;
+        /* float: right; */
+        /* background-color: red; */
+    }
+    .button {
+        background-color: white;
+        font-family: 'Khula', sans-serif;
+        /* font-size: 1em; */
+        margin: 15px;
+        background-color: white;
+        border: none;
+        color: black;
+        outline: none;
+        position: relative;
+    }
+    .button:hover{
+        color: #739652;
+      }
+    .button:before,
+    .button:after {
+    border: 0 solid transparent;
+    transition: all 0.25s;
+    content: '';
+    height: 24px;
+    position: absolute;
+    width: 0px;
+    }
+    .button:before {
+        border-bottom: 1.5px solid #818a91;
+        left: 0px;
+        top: -5px;
+    }
+      .button:hover:before,
+      .button:hover:after {
+        height: 100%;
+        width: 100%;
+      }
+
+}

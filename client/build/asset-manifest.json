@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7b301a9.chunk.css",
+    "main.js": "/static/js/main.72005bdd.chunk.js",
+    "main.js.map": "/static/js/main.72005bdd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
+    "static/js/2.c8ca40f1.chunk.js": "/static/js/2.c8ca40f1.chunk.js",
+    "static/js/2.c8ca40f1.chunk.js.map": "/static/js/2.c8ca40f1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.65fb1fe248c4ae4dd0a5ad015f496f6a.js": "/precache-manifest.65fb1fe248c4ae4dd0a5ad015f496f6a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e7b301a9.chunk.css.map": "/static/css/main.e7b301a9.chunk.css.map",
+    "static/js/2.c8ca40f1.chunk.js.LICENSE.txt": "/static/js/2.c8ca40f1.chunk.js.LICENSE.txt",
+    "static/media/IMG_0219.JPG": "/static/media/IMG_0219.d4b71ad5.JPG",
+    "static/media/Home.css": "/static/media/Photo1.7a4aed17.PNG",
+    "static/media/isa-milena.PNG": "/static/media/isa-milena.31a40e21.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09b85ec0.js",
+    "static/js/2.c8ca40f1.chunk.js",
+    "static/css/main.e7b301a9.chunk.css",
+    "static/js/main.72005bdd.chunk.js"
+  ]
+}

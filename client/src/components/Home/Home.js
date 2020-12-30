@@ -13,7 +13,27 @@ export default class Home extends Component {
                     <p className="Heading"> Join us on our <br/>yoga journey.</p>
                 </div> 
             </section>
-    
+            <section className="About">
+                    <h2 id={'#section1'}>About</h2>
+                    
+                    <div id="yogateacher">
+
+                        <div className="container">
+                            <h3>Isa</h3>
+                            <p>Hi, my name is Isa...</p>
+                        </div>
+
+                        <div className="container">
+                            <img src={AboutPhoto}/>
+                        </div>
+
+                        <div className="container">
+                            <h3>Milena</h3>
+                            <p>Hi, my name is Milena...</p>
+                        </div>
+                    
+                    </div>
+            </section>
         </div>
         )
     }

@@ -6,7 +6,7 @@ import AboutPhoto from './isa-milena.PNG';
 const About = props => {
     return (
         <div>
-          <section className="About">
+          <section id={'section1'} className="About">
                     <h2>About
                         </h2>
                     

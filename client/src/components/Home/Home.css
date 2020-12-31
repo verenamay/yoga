@@ -6,33 +6,88 @@
 @media (min-width: 768px) {
     .landing-all {
         max-width: 100%;
-        margin: 0 5em 0 5em;
+        margin: 3em 5em 0 5em;
         /* background-color: blue; */
-    }
-    .home {
+        }
+    /* .home {
         max-width: 100%; 
-        height: 80vh;
+        height: 80vh; */
         /* margin: 0 5em 0 5em; */
-        background: url("Photo1.PNG") no-repeat center center fixed; 
-        background-size: cover; 
+        /* background: url("Photo1.PNG") no-repeat center center fixed; 
+        background-size: cover;  */
         /* display: flex; */
         /* justify-content: space-between; */
+    /* } */
+
+
+
+    /* new for slideshow */
+    .main-wrapper {
+        left: 0; 
+        top: 0; 
+        width: 100%; 
+        height: 80vh;
+        background-position: center center;  
+        background-repeat: no-repeat;
+        animation: animate 20s;
+        animation-timing-function:ease-in-out;
+        animation-delay:3s; 
+        animation-iteration-count: infinite;
+        background-size: cover;
+
+        /* backface-visibility: hidden;
+        
+        animation-direction: alternate; 
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards; */
+        background-image: url("Photo1.PNG"); 
+        
     }
+    
+
+    @keyframes animate{
+        100%{
+            
+            background-image: url("Photo1.PNG");
+        }
+        33% {
+            
+            background-image: url("Photo2.PNG");
+        }
+        /* 50% {
+            opacity:1; 
+            background-image: url("Photo3.PNG");
+        } */
+        67% {
+            
+            background-image: url("Photo4.PNG");
+        }
+    }
+    /* slideshow finish */
+
     shadow {
     display:block;
     position:relative;
     }
     
-    .Heading {
-        padding: 100px;
+    .intro {
+        padding-left: 100px;
+        padding-top: 50px;
         font-family: 'Nanum Myeongjo', serif;
-        font-size: 40px;
-        /* background-color: blue;    */
+        font-size: 40px; 
+         
+    }
+    .intro p{
+        text-align: center;
+        width: 7em; 
+        padding: 0.3em;
+        background-color: rgb(255,255,255, 0.3);  
+        color: rgb(52,54,52);
     }
 
     .About {
-        padding: 80px;
-        
+        padding-top: 80px; 
+        padding-bottom: 60px;
         text-align: center;
         font-family: 'Julius Sans One', sans-serif;
 
@@ -69,8 +124,34 @@
         width: 400px;
         /* background-color: blue; */
     }
-    
-
-    
+    .section2 {
+        padding-top: 20px; 
+        padding-bottom: 60px;
+        text-align: center;
+        font-family: 'Julius Sans One', sans-serif;
+        background-color: rgb(249,236,224, 0.5); 
+    }
+    .section2 p{
+        font-family: 'Khula', sans-serif;
+        padding: 0 15em 0 15em; 
+    }
+    .section2 h2{
+        vertical-align: middle;
+        text-transform: uppercase;
+        line-height: 1em;
+        text-align: center;
+        display: inline-block;
+        letter-spacing: -1px;
+        
+    }
+    .section2 h2::after{
+        content: "";
+        display: block;
+        width: 70%;
+        height: 1px;
+        margin: auto;
+        margin-top: 10px;
+        background-color: black;
+    }
 }
 

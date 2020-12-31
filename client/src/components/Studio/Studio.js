@@ -12,7 +12,7 @@ const Studio = props => {
             <p>Our studio webpage is</p>
             <p className="soon">coming soon</p>
             <p>Meanwhile check out our</p> 
-            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/yogamesoftly/"><i className="fa fa-instagram"></i>Instagram</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/yogamesoftly/"><i className="fa fa-instagram"></i>  Instagram</a>
             <p>page.</p>
             </div>
           </section>

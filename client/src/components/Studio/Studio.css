@@ -9,6 +9,10 @@
     height: 80vh;
     
   }
+  .studio a{
+    text-decoration: none;
+    background-color:rgb(244,225,195);
+  }
   .coming-soon-text {
     padding-top: 5em;
   }

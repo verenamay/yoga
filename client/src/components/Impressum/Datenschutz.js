@@ -5,9 +5,13 @@ import './Impressum.css';
 
 const Datenschutz = props => {
     return (
-        <div>
-          <h2>Datenschutz</h2>
-        </div>
+      <div className="imprint">
+      <section className="imprint-container">
+        <h3>Data Protection</h3>
+        <p>...</p>
+      </section>
+      
+    </div>
     )
 }
 export default Datenschutz;

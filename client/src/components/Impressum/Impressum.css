@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Khula&display=swap');
+
+
+@media (min-width: 768px) {
+  .imprint {
+    max-width: 100%;
+    margin: 2.5em 5em 0 5em;
+    background-color: rgb(249,236,224, 0.5);
+    height: 80vh;
+  }
+  .imprint-container {
+    padding-left: 0.5em;
+    padding-top: 0.3em;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #343634; 
+  }
+}

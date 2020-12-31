@@ -20,6 +20,7 @@
         letter-spacing: 2px;
         /* background-color: red; */
         text-align: center;
+        color:rgb(52,54,52); 
     }
     .Links {
         margin-right: 5em;
@@ -29,30 +30,38 @@
     .button {
         background-color: white;
         font-family: 'Khula', sans-serif;
-        /* font-size: 1em; */
+        font-size: 1em;
+
+        /*abstand zwischen Links:*/
         margin: 15px;
         background-color: white;
         border: none;
-        color: black;
+        color: rgb(52,54,52);
         outline: none;
         position: relative;
     }
     .button:hover{
-        color: #739652;
+        color: rgb(206,180,167);
       }
+
+      .button:focus{
+        color: rgb(206,180,167);
+      }
+
+
     .button:before,
     .button:after {
     border: 0 solid transparent;
-    transition: all 0.25s;
+    transition: all 0.5s;
     content: '';
-    height: 24px;
+    height: 28px;
     position: absolute;
     width: 0px;
     }
     .button:before {
-        border-bottom: 1.5px solid #818a91;
+        border-bottom: 1.5px solid rgb(206,180,167);
         left: 0px;
-        top: -5px;
+        top: 2.5px;
     }
       .button:hover:before,
       .button:hover:after {

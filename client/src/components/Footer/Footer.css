@@ -20,6 +20,7 @@
       /* background-color: red; */
       font-family: 'Khula', sans-serif;
       color: #818a91;
+      font-size: 1em;
     }
     .other-links li {
       padding: 0.4em;
@@ -50,17 +51,17 @@
       }
       .social-icons a:active,.social-icons a:focus,.social-icons a:hover {
         color:#fff;
-        background-color:#739652;
+        background-color:rgb(206,180,167);
       }
       .social-icons a.instagram:hover {  
         background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
         }
       .other-links a:hover{
-        color: #739652;
+        color: rgb(206,180,167);
       }
 
         .social-icons a.email:hover {  
-          background: #739652;
+          background: rgb(206,180,167);
           }
 
 }

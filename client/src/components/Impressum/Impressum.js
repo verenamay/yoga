@@ -5,9 +5,13 @@ import './Impressum.css';
 
 const Impressum = props => {
     return (
-        <div>
-          <h2>Impressum</h2>
-        </div>
+      <div className="imprint">
+      <section className="imprint-container">
+        <h3>Imprint</h3>
+        <p>...</p>
+      </section>
+      
+    </div>
     )
 }
 export default Impressum;

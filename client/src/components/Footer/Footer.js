@@ -14,7 +14,7 @@ const Footer = props => {
             </ul>
             <ul className="social-icons">
               <li><a target="_blank" rel="noopener noreferrer" title="Check us out on Instagram" className="instagram" href="https://www.instagram.com/yogamesoftly/"><i className="fa fa-instagram"></i></a></li>
-              <li><a target="_blank" rel="noopener noreferrer" title="Contact us via email"className="email" href="#"><i className="fa fa-envelope"></i></a></li>
+              <li><a target="_blank" rel="noopener noreferrer" title="Contact us via email"className="email" href="mailto:verena.mayrock@gmail.com" ><i className="fa fa-envelope"></i></a></li>
             </ul>
             
         </footer>
